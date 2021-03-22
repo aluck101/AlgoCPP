@@ -5,6 +5,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+//If a number is Palindrome(which means if the reverse is the same as the number)
 bool isPal(int n) {
     int rev = 0;
     int temp = n;
@@ -21,14 +22,13 @@ bool isPal(int n) {
 
 int main() {
 
-    int n;
+    int n = 0;
     bool pal = false;
     
     cin >> n;
     
     pal = isPal(n);
 
- 
     cout << pal << endl;
 
     return 0;
